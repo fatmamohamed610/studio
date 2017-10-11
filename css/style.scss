@@ -1,0 +1,41 @@
+/*fonts*/
+@font-face {
+	font-family: reg;
+	src: url(../fonts/RobotoCondensed-Regular.ttf);
+}
+@font-face {
+	font-family: light;
+	src: url(../fonts/RobotoCondensed-Lights.ttf);
+}
+/*colors*/
+$mintG : #7acec3;
+$gray:#393d3c;
+$yellow:#ebb240;
+/*-----------public----------*/
+body{
+	font-family:reg;
+	color:$gray;
+}
+.line{
+    z-index: 1;
+    height: 1px;
+    background-color: white;
+	position: absolute;
+	top: 0;
+	right: 0;
+    transform-origin: top right;
+	transform-style: flat;
+    -webkit-transform: rotate(-48.3deg); /* Safari and Chrome */
+        -ms-transform: rotate(-48.3deg); /* IE 9 */
+            transform: rotate(-48.3deg);
+}
+.displayT{
+	display:table;
+}
+.displayTC{
+	display:table-cell;
+	float:none;
+}
+/*------------*/
+@import 'menu.scss';
+@import 'section.scss';

@@ -1,0 +1,69 @@
+/*----navbar-----*/
+.navbar-brand {
+  float: right; }
+
+.logo-med {
+  float: left; }
+
+.navbar-default .navbar-nav > li > a {
+  padding: 10px 24px; }
+
+.camera_caption {
+  right: unset;
+  left: 0; }
+
+.camera_caption h3, .camera_caption p {
+  text-align: left; }
+
+.fixed-slider {
+  left: unset;
+  right: 0px; }
+
+.camera_prev span .fa {
+  margin-top: 7px; }
+
+.coloredBtn, .news .btn, .partetion .btn, .contactus .btn {
+  float: right; }
+
+/*----news-----*/
+.newsUl h5 {
+  text-align: left; }
+
+.news span {
+  float: inherit; }
+
+.newsUl .date {
+  float: left;
+  text-align: left; }
+
+.date {
+  float: left;
+  text-align: left; }
+
+.newsUl .more {
+  float: right; }
+
+.num {
+  font-family: pold !important; }
+
+.news h4, .news p {
+  text-align: left; }
+
+.news img {
+  float: left; }
+
+.news span {
+  text-align: left; }
+
+.partetion .btn {
+  float: none; }
+
+/*----download-------*/
+.download h4 {
+  float: left;
+  margin-left: 40px; }
+
+.download .marginRight {
+  margin-left: 200px; }
+
+/*# sourceMappingURL=scssAr.css.map */
