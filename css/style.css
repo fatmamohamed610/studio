@@ -4,7 +4,7 @@
   src: url(../fonts/RobotoCondensed-Regular.ttf); }
 @font-face {
   font-family: light;
-  src: url(../fonts/RobotoCondensed-Lights.ttf); }
+  src: url(../fonts/RobotoCondensed-Light.ttf); }
 /*colors*/
 /*-----------public----------*/
 body {
@@ -33,14 +33,21 @@ body {
   display: table-cell;
   float: none; }
 
+.marginL {
+  margin-left: 13px; }
+
+.noPadd {
+  padding: 0; }
+
 /*------------*/
 /*menu style*/
 .menu {
   position: fixed;
-  right: 100px;
-  top: 100px;
+  right: 150px;
+  top: 50px;
   padding: 30px;
-  border: 1px solid #e9eae2; }
+  border: 2px solid #e9eae2;
+  z-index: 3; }
 
 /*---sec1---*/
 img {
@@ -82,12 +89,12 @@ img {
   height: 100%;
   width: 100%; }
   .mintBack p:first-child, .yellow p:first-child {
-    margin-top: 200px;
-    margin-left: 20px; }
+    margin-top: 150px;
+    margin-left: 60px; }
   .mintBack p:last-child, .yellow p:last-child {
-    margin-top: 100px;
-    margin-right: 20px;
-    float: right; }
+    margin-top: 60px;
+    float: left;
+    margin-left: 200px; }
   .mintBack p span, .yellow p span {
     color: white;
     display: block; }
@@ -110,9 +117,54 @@ img {
 .yellow {
   background: #ebb240; }
   .yellow .fa-long-arrow-right {
-    margin-top: 200px;
-    margin-left: 20px; }
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    color: #fff; }
   .yellow p {
     margin-left: 20px; }
+  .yellow .blockM {
+    position: relative;
+    margin-top: 150px;
+    margin-left: 60px; }
+    .yellow .blockM p {
+      margin-left: 20px;
+      float: left;
+      font-size: 17px;
+      line-height: 15px;
+      font-family: reg;
+      margin-top: 0; }
+  .yellow h3 {
+    float: left;
+    margin-top: 30px;
+    color: #fff;
+    margin-left: 180px;
+    font-size: 36px;
+    line-height: 20px; }
+
+.displayTC .spanL {
+  line-height: 1;
+  font-family: light; }
+
+.heart {
+  margin-top: 30px; }
+  .heart i {
+    text-align: center;
+    font-size: 24px; }
+  .heart span {
+    color: red;
+    display: block;
+    text-align: center; }
+
+.arrowS i {
+  color: #ebb240;
+  margin-right: 10px;
+  font-size: 17px; }
+.arrowS a {
+  text-transform: uppercase;
+  color: #393d3c;
+  text-decoration: none; }
+.arrowS a:hover {
+  text-decoration: none; }
 
 /*# sourceMappingURL=style.css.map */

@@ -5,7 +5,7 @@
 }
 @font-face {
 	font-family: light;
-	src: url(../fonts/RobotoCondensed-Lights.ttf);
+	src: url(../fonts/RobotoCondensed-Light.ttf);
 }
 /*colors*/
 $mintG : #7acec3;
@@ -36,6 +36,8 @@ body{
 	display:table-cell;
 	float:none;
 }
+.marginL{margin-left:13px;}
+.noPadd{padding:0;}
 /*------------*/
 @import 'menu.scss';
 @import 'section.scss';
