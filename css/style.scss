@@ -15,6 +15,7 @@ $yellow:#ebb240;
 body{
 	font-family:reg;
 	color:$gray;
+	line-height:auto;
 }
 .line{
     z-index: 1;
@@ -36,8 +37,22 @@ body{
 	display:table-cell;
 	float:none;
 }
-.marginL{margin-left:13px;}
+.marginL{margin-left:15px;}
 .noPadd{padding:0;}
+.auto{
+	margin-top:15px;
+	h4{text-transform: uppercase;}
+	span{
+		line-height:1;
+		font-family: light;
+		display:block;
+	}
+}
+.gray{
+	background: #dfe0d9;
+	padding-bottom:15px;
+}
+.capt{text-transform: uppercase;}
 /*------------*/
 @import 'menu.scss';
 @import 'section.scss';

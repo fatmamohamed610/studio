@@ -52,13 +52,10 @@ img{
 }
 /*-----sec2-------*/
 .sec2 .line{
-	-webkit-transform: rotate(-41.7deg); /* Safari and Chrome */
-        -ms-transform: rotate(-41.7deg); /* IE 9 */
-            transform: rotate(-41.7deg);
+	-webkit-transform: rotate(-38.7deg); /* Safari and Chrome */
+        -ms-transform: rotate(-38.7deg); /* IE 9 */
+            transform: rotate(-38.7deg);
 
-}
-.sec2 {
-	.col-md-8,.col-md-6{padding:0;}
 }
 .yellow{
 	@extend .mintBack;
@@ -95,10 +92,6 @@ img{
 		line-height: 20px;
 	}
 }
-.displayTC .spanL{
-	line-height:1;
-	font-family: light;
-}
 .heart{
 	margin-top: 30px;
 	i{text-align: center;font-size: 24px;}
@@ -121,4 +114,8 @@ img{
 	}
 	a:hover{text-decoration: none;}
 }
-
+.block{
+	margin-top: 50px;
+	margin-bottom: 15px;
+	.heart{margin-top: 0;}
+}
