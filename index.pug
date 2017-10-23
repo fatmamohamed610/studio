@@ -1,7 +1,7 @@
 extends layout
 
 block content
-	section(class="sec1")
+	section(class="sec1 clearfix")
 		.col-md-8(class="clearfix")
 			.whiteB.clearfix
 				.col-md-3
@@ -32,7 +32,7 @@ block content
 				p
 					span +64 9 345 6758 
 					span info@dsgn-studio.com
-	section(class="sec2")
+	section(class="sec2 clearfix")
 		
 		.col-md-8(class="displayT noPadd")
 			.col-md-6(class="clearfix displayTC")
@@ -90,10 +90,10 @@ block content
 					span +250
 			.col-md-6.noPadd
 				img(src="imgs/potter.png")
-		.col-md-4.noPadd
-			.col-md-12.noPadd
-				img(src="imgs/chair2.png")
-			.col-md-6.noPadd
+		.col-md-4.noPadd.floatR
+			.col-md-12.noPadd.center
+				img.custImg(src="imgs/chair2.png")
+			.col-md-6
 				.auto
 					h4 tabano
 					span DESIGNER: PATRICIA URQUIOLA
@@ -109,6 +109,57 @@ block content
 					center.heart
 						i.fa.fa-heart-o
 						span +250
+		.col-md-2.noPadd.backImg
+			img(src="imgs/backImg.png")
+			.textAbs.auto
+				h4 louis xx
+				span designer: philippe starck 
+				span ypology: chairs
+				span Client: vitra
+				span Year: 2012
+				.arrowS
+					i.fa.fa-long-arrow-right
+					a view project
+				center.heart
+					i.fa.fa-heart-o
+					span +250
+		.col-md-6.noPadd.gray2.backImg
+			img(src="imgs/brownChair.png")
+			.textAbs
+				.col-md-offset-5.col-md-3.noPadd
+					.auto
+						h4 395-396 P22
+						span Designer: Patrick Norguet
+						span Typology: ARMchairs
+						span Client: Cassina
+						span Year: 2013
+				.col-md-4.noPadd.block
+					.col-md-6.noPadd
+						.arrowS
+							i.fa.fa-long-arrow-right
+							a view project
+						center.heart
+							i.fa.fa-heart-o
+							span +250
+		.col-md-4.noPadd
+			.col-md-6.noPadd
+				img(src="imgs/yellow2.png")
+			.col-md-offset-1.col-md-4.noPadd
+				.auto
+					h4 FIJI
+					span designer: Cuno Frommherz
+					span Typology: armchairs
+					span Year: 2012
+				.arrowS.marg10
+					i.fa.fa-long-arrow-right
+					a view project
+				center.heart.marg10
+					i.fa.fa-heart-o
+					span +250
+
+
+
+
 
 
 

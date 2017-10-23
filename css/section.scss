@@ -92,7 +92,7 @@ img{
 		line-height: 20px;
 	}
 }
-.heart{
+body .heart{
 	margin-top: 30px;
 	i{text-align: center;font-size: 24px;}
 	span{
@@ -115,7 +115,39 @@ img{
 	a:hover{text-decoration: none;}
 }
 .block{
-	margin-top: 50px;
+	margin-top: 40px;
 	margin-bottom: 15px;
 	.heart{margin-top: 0;}
 }
+.backImg{
+	position: relative;
+	height: 450px;
+	img{height: 100%;}
+	.arrowS{
+		margin-top: 15px;
+		a{color: #fff;}
+	}
+}
+.textAbs{
+	position: absolute;
+	top: 15px;
+	left: 15px;
+	color: #fff;
+	margin:0;
+	h4{margin:0;}
+	.heart {
+    	margin-top: 10px;
+	}
+}
+.gray2{
+	.textAbs{width: 100%;}
+	span,h4{color: $grayB;}
+	.arrowS a {
+	    color: $grayB;
+	}
+	.heart i{color:$grayB; }
+	.block {
+	    margin-top: 20px;
+	}
+}
+.custImg{max-height: 280px;}

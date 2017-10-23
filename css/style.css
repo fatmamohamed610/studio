@@ -56,6 +56,18 @@ body {
 .capt {
   text-transform: uppercase; }
 
+.floatR {
+  float: right; }
+
+.gray2 {
+  background: #eaeaea; }
+
+body section .marg10 {
+  margin-top: 15px; }
+
+.center {
+  text-align: center; }
+
 /*------------*/
 /*menu style*/
 .menu {
@@ -156,12 +168,12 @@ img {
     font-size: 36px;
     line-height: 20px; }
 
-.heart {
+body .heart {
   margin-top: 30px; }
-  .heart i {
+  body .heart i {
     text-align: center;
     font-size: 24px; }
-  .heart span {
+  body .heart span {
     color: red;
     display: block;
     text-align: center; }
@@ -178,9 +190,44 @@ img {
   text-decoration: none; }
 
 .block {
-  margin-top: 50px;
+  margin-top: 40px;
   margin-bottom: 15px; }
   .block .heart {
     margin-top: 0; }
+
+.backImg {
+  position: relative;
+  height: 450px; }
+  .backImg img {
+    height: 100%; }
+  .backImg .arrowS {
+    margin-top: 15px; }
+    .backImg .arrowS a {
+      color: #fff; }
+
+.textAbs {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  color: #fff;
+  margin: 0; }
+  .textAbs h4 {
+    margin: 0; }
+  .textAbs .heart {
+    margin-top: 10px; }
+
+.gray2 .textAbs {
+  width: 100%; }
+.gray2 span, .gray2 h4 {
+  color: #333; }
+.gray2 .arrowS a {
+  color: #333; }
+.gray2 .heart i {
+  color: #333; }
+.gray2 .block {
+  margin-top: 20px; }
+
+.custImg {
+  max-height: 280px; }
 
 /*# sourceMappingURL=style.css.map */

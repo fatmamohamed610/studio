@@ -11,6 +11,7 @@
 $mintG : #7acec3;
 $gray:#393d3c;
 $yellow:#ebb240;
+$grayB:#333;
 /*-----------public----------*/
 body{
 	font-family:reg;
@@ -53,6 +54,10 @@ body{
 	padding-bottom:15px;
 }
 .capt{text-transform: uppercase;}
+.floatR{float: right;}
+.gray2{background: #eaeaea;}
+body section .marg10{margin-top: 15px;}
+.center{text-align: center;}
 /*------------*/
 @import 'menu.scss';
 @import 'section.scss';
